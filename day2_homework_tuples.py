@@ -17,9 +17,9 @@
 travel_info = [("Alice", "New York", "London"), ("Bob", "Tokyo", "San Francisco"), ("Libby", "Colorado", "Albania"), ("Todd", "Oklahoma", "Colorado")]
 
 def tuple_mastery(travel_info):
-    for index, itinerary in enumerate(travel_info):
-        name, origin, destination = itinerary
-        print(f"Itinerary {index + 1}: {name} - From {origin} to {destination}")
+    for index, itinerary in enumerate(travel_info): # Pull out the index and each item inside
+        name, origin, destination = itinerary # Assign each item in the tupke a variable
+        print(f"Itinerary {index + 1}: {name} - From {origin} to {destination}") # fancy print statement with all elements
     
 tuple_mastery(travel_info)
 
